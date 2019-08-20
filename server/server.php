@@ -1,5 +1,8 @@
 <?php
 
+// PHP Licenser Script
+// Made by Atharva Deosthale
+
 // Including the Database and the Function files
 require_once "database.php";
 require_once "functions.php"; 
