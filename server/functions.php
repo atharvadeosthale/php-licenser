@@ -1,5 +1,8 @@
 <?php
 
+// PHP Licenser Script
+// Made by Atharva Deosthale
+
 // This function reads the data, encodes it in JSON format and prints it (send it as response)
 function send_response($code,$message) {
 	$response["status_code"] = $code;
