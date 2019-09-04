@@ -12,3 +12,5 @@ function send_response($code,$message) {
 	echo $json;
 	die();
 }
+
+?>
