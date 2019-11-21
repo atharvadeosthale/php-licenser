@@ -34,6 +34,12 @@ $domain_name = $_POST["domain_name"];
 // SQL Query to validate the License provided by the client
 $sql = "SELECT * FROM license_keys WHERE license_key='$license_key' AND package_name='$package_name' AND domain_name='$domain_name';";
 $result = mysqli_query($conn, $sql);
+
+if(!$result)
+{
+	send_response("500","DBError");
+}
+
 $count = mysqli_num_rows($result);
 
 // Authenticate and send response accordingly
