@@ -8,3 +8,4 @@ The server validates the data provided by the client using SQL Queries and sends
 <b>Note:</b> Use of cURL has been used for sending HTTP POST Requests. Please look into that your client should support cURL. Also the Server should allow Cross Origin Requests.<br><br>
 Feel free to edit this code.<br>
 <b>PS</b> I'm still a student so sorry for all the mistakes you see in the code. I'm learning to code properly.
+<br><i>Licenser v2.0  is coming soon with brand new features!
